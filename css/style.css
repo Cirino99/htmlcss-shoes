@@ -34,28 +34,30 @@ header .button a {
     width: 100%;
     position: relative;
 }
-.red {
+#red {
     background-color: red;
 }
-.green {
+#green {
     background-color: green;
 }
-.yellow {
+#yellow {
     background-color: yellow;
 }
 .box img {
+    width: auto;
+    height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-70%);
+    transform: translate(-50%,-60%);
 }
 .box h2 {
     position: absolute;
     text-align: center;
     left: 50%;
-    bottom: 20%;
+    bottom: 15%;
     transform: translate(-50%,-50%);
-    font-size: 40px;
+    font-size: 40px;    
 }
 .textgreen {
     color: green;
