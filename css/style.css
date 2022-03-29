@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* box */
+.box {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.red {
+    background-color: red;
+}
+.box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+.box h2 {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
