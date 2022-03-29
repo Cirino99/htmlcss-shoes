@@ -37,6 +37,12 @@ header .button a {
 .red {
     background-color: red;
 }
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
 .box img {
     position: absolute;
     top: 50%;
